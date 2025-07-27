@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Opener</title>
+    <link rel="stylesheet" href="URL Opener.css">
+</head>
+<body class="Body">
+    <h1>Enter Any URL </h1>
+    <form action="" method="get" onsubmit="this.action = this.url.value" target="_blank">
+        <input type="url" name= "url" placeholder="https://example.com/" required style="width: 300px;">
+        <button type="submit">Open URL</button>
+    </form>
+</body>
+</html>
