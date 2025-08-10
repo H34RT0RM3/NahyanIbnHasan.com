@@ -3,75 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lion & the Mouse</title>
+    <title>My Travel Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #2980b9;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        #gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
 </head>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
-        background-color: #f4f4f4;
-    }
-    h1 {
-        color: #333;
-    }
-    p {
-        color: #555;
-    }
-    figure {
-        text-align: center;
-        margin-top: 20px;
-    }
-    img {
-        border-radius: 8px;
-    }
-    figcaption {
-        font-style: italic;
-        color: #777;
-    }
-    @media (max-width: 600px) {
-        body {
-            margin: 10px;
-        }
-        img {
-            width: 100%;
-            height: auto;
-        }
-    }
-    @media (min-width: 601px) {
-        img {
-            width: 300px;
-            height: auto;
-        }
-    }
-    @media (min-width: 1024px) {
-        body {
-            max-width: 800px;
-            margin: auto;
-        }
-    }
-    @media (min-width: 1200px) {
-        body {
-            max-width: 1000px;
-        }
-    }
-    @media (min-width: 1600px) {
-        body {
-            max-width: 1200px;
-        }
-    }
-</style>
-<body>
-    <h1>Lion & the Mouse</h1>
-    <p>Once upon a time, a lion was sleeping in the forest. A little mouse came upon him unexpectedly, and in her fright and haste to get away, ran across the lion's nose. Roused from his nap, the lion laid his huge paw angrily on the tiny creature to kill her.</p>
-    <p>The poor mouse begged him, "Please let me go and someday I will surely repay you."</p>
-    <p>The lion was much amused to think that a mouse could ever help him. But he was generous and finally let the mouse go.</p>
-    <p>Some days later, while stalking his prey in the forest, the lion was caught in the toils of a hunter's net. Unable to free himself, he filled the air with his angry roaring.</p>
-    <p>The mouse knew the voice and quickly found the lion struggling in the net. Running up to him, she gnawed away at the ropes that bound him. Soon the lion was free.</p>
-    <p>"You laughed when I said I would repay you," said the mouse. "Now you see that even a mouse can help a lion."</p>
-    <figure>
-        <img src="LION AND THE MOUSE.png" alt="Lion and Mouse" style="width:300px;height:auto;">
-        <figcaption>A lion and a mouse, illustrating the story.</figcaption>
-    </figure>
+<body style="text-align: center;">
+    <h1>Welcome to My Travel Gallery</h1>
+    <p>From this webpage you can learn where you can go on your next vacation.</p>
+    <h2>Featured Destinations</h2>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Eiffel_Tower">Eiffel Tower, Paris, France</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Shibuya_Crossing">Shibuya Crossing, Tokyo, Japan</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Times_Square">Times Square, New York City, USA</a></li>
+    </ul>
+    <h2>Photo Gallery</h2>
+    <div class="gallery" style="align-content: center;">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/15/a3/a1/c-emeric-livinec-sete.jpg?w=1000&h=-1&s=1"  alt="Eiffel Tower, Paris">
+        <img src="https://media.cntraveler.com/photos/598202951209f576909acb19/16:9/w_1600,c_limit/Shibuya-Crossing-GettyImages-533959897.jpg" alt="Shibuya Crossing, Tokyo">
+        <img src="https://cdn.britannica.com/66/154566-050-36E73C15/Times-Square-New-York-City.jpg?w=300" alt="Times Square, New York">
+    </div>
 </body>
 </html>
